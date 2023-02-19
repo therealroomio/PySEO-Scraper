@@ -12,7 +12,7 @@ This is a Python script that scrapes a website for metadata and generates an XML
 
 Install this tool with pip
 
-```bash
+```
 pip install requests
 pip install beautifulsoup4
 ```
@@ -22,28 +22,22 @@ pip install beautifulsoup4
 
 Clone the project
 
-```bash
-  git clone https://link-to-project
+```
+  git clone https://github.com/therealroomio/PySEO-Scraper
 ```
 
 Go to the project directory
 
-```bash
-  cd my-project
+```
+  cd PySEO-Scraper
 ```
 
 Install dependencies
 
-```bash
-  npm install
 ```
-
-Start the server
-
-```bash
-  npm run start
+  pip install requests
+  pip install beautifulsoup4
 ```
-
 
 To use the script, open `scrape.py` and update the following line of code:
 
@@ -51,7 +45,11 @@ To use the script, open `scrape.py` and update the following line of code:
 url = "https://google.com/"
 ```
 
-Replace `https://google.com/` with the URL of the website you want to scrape.
+Replace `https://google.com/` with the URL of the website you want to scrape then run it in Python.
+
+```python
+python3 scrape.py
+```
 
 The script will output an XML file in the same directory as the script, with the name `<title>.xml`. The file will contain the following metadata:
 
