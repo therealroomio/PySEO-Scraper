@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as md
 
-url = "https://google.com/"
+url = "https://github.com/"
 response = requests.get(url)
 soup = BeautifulSoup(response.content, "html.parser")
 
