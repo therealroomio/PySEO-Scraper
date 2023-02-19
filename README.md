@@ -66,3 +66,8 @@ The script will output an XML file in the same directory as the script, with the
 - Image alt text
 
 If any of the metadata is missing on the website, the script will insert "missing" as the value for that metadata.
+
+## Authors
+
+[@therealroomio](https://www.github.com/therealroomio) using ChatGPT
+
