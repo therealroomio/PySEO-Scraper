@@ -2,6 +2,8 @@
 
 This is a Python script that scrapes a website for metadata and generates an XML file with the collected data. The script uses the requests and beautifulsoup4 libraries to retrieve and parse the HTML of the website, and the xml.etree.ElementTree and xml.dom.minidom libraries to create the XML file.
 
+[![SEO Scraping](./screenshot.png)]
+
 ## Prerequisites
 
 - Python 3.x
