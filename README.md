@@ -59,16 +59,35 @@ The script will output an XML file in the same directory as the script, with the
 - Title
 - Description
 - Keywords
-- Canonical URL
+- Canonical URL (from `<link rel="canonical">`)
 - Robots
 - Open Graph title
 - Open Graph description
 - Open Graph image
+- Twitter title
+- Twitter description
+- Twitter image
 - H1 tags
 - H2 tags
 - Image alt text
+- SEO audit warnings (title/meta lengths, heading hierarchy, keyword density)
 
 If any of the metadata is missing on the website, the script will insert "missing" as the value for that metadata.
+
+## Link Audit
+
+`link_audit.py` checks a page for broken `<a>` links, images missing alt text, and retrieves `robots.txt` and `sitemap.xml` from the target domain.
+
+```bash
+python link_audit.py https://example.com
+```
+
+To skip checking link targets use:
+
+```bash
+python link_audit.py https://example.com --skip-links
+=======
+The generated report also contains a short summary table of the key SEO metrics.
 
 ## Authors
 
