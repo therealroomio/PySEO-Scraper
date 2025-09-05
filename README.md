@@ -59,11 +59,14 @@ The script will output an XML file in the same directory as the script, with the
 - Title
 - Description
 - Keywords
-- Canonical URL
+- Canonical URL (from `<link rel="canonical">`)
 - Robots
 - Open Graph title
 - Open Graph description
 - Open Graph image
+- Twitter title
+- Twitter description
+- Twitter image
 - H1 tags
 - H2 tags
 - Image alt text
