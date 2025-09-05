@@ -67,8 +67,11 @@ The script will output an XML file in the same directory as the script, with the
 - H1 tags
 - H2 tags
 - Image alt text
+- SEO audit warnings (title/meta lengths, heading hierarchy, keyword density)
 
 If any of the metadata is missing on the website, the script will insert "missing" as the value for that metadata.
+
+The generated report also contains a short summary table of the key SEO metrics.
 
 ## Authors
 
